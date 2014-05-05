@@ -16,6 +16,7 @@
     <script type="text/javascript" src="engine1/jquery.js"></script>
     <script type="text/javascript" src="js/nnnm.js"></script>
     <script type="text/javascript" src="css/Flat-UI-master/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-hover-dropdown.js"></script>
 
   </head>
 
@@ -32,8 +33,8 @@
           <li><a href="./index.html">Home</a></li>           
           <li><a href="./contact.html">Contact</a></li>
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Information <b class="caret"></b></a>
-            <span class="dropdown-arrow"></span>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Information <b class="caret"></b></a>
+            <span class="dropdown-arrow" style="z-index:1000;"></span>
             <ul class="dropdown-menu">
               <li><a href="./cause.html">The Cause</a></li>
               <li><a href="./event.html">The Event</a></li>
@@ -41,7 +42,7 @@
           </li>
          </ul>
          <ul class="nav navbar-nav navbar-right">
-          <li><a href="https://giving.mit.edu/givenow/start.dyn?designationId=3622010&source=MSKS" target="_blank">Donate</a></li>           
+          <li class="donate-link"><a style="border-top-right-radius: 6px; border-bottom-right-radius: 6px;" href="https://giving.mit.edu/givenow/start.dyn?designationId=3622010&source=MSKS" target="_blank">Donate</a></li>          
          </ul>
       </div>
     </nav>
@@ -49,14 +50,14 @@
     <div class="container info-container">
       <h1>The Cause</h1>
       <img src="images/collier-strong.jpg" class="cause-image"/>
-      <h6>Officer Sean Collier</h6>
+      <h6 style="font-weight:bold; margin-bottom:10px;">Officer Sean Collier</h6>
       <p>
         Sean Collier was a police officer who had served the MIT community since January of 2012.  But to those who knew him, he was so much more than that.  Officer Collier brought a tremendous spirit and energy to campus, and was well known by many student groups and organizations, including the MIT Outing Club.  Dedicated to giving back to his community, he made regular donations to the Jimmy Fund in support of Boston’s Dana-Farber Cancer Institute.  But it was his genuine interest in the well being of MIT students that made him truly loved here on campus.  He didn’t just protect our community – he embodied it.
       </p>
-      <p>
+      <p style="margin-bottom:20px;">
         On April 18th, 2013, Officer Collier was stolen away from us.  His loss shocked and devastated our community, but has led us to try to live as he did: kind, generous, and full of spirit.  This year, we run in his memory.
       </p>
-      <h6>Team Collier Strong</h6>
+      <h6 style="font-weight:bold; margin-bottom:10px;">Team Collier Strong</h6>
       <p>
         On April 21st, 2014, <a href="http://teamcollierstrong.com/" style="font-weight:bold" target="_blank">Team Collier Strong</a> will run the Boston Marathon in honor of Officer Sean Collier.  The team is made up of the friends and family of Officer Collier.  They are fundraising for the <a href="http://police.mit.edu/sean-collier-self-sponsor-scholarship" style="font-weight:bold" target="_blank">Officer Sean Collier Self Sponsor Scholarship</a>, which will send one self-sponsored recruit through the Lowell Police Academy every year.  This sponsorship is named in honor of Officer Collier, who self-sponsored himself through the Transit Academy in order to start his career in law enforcement.  This year, the money we raise will be donated to this scholarship, in honor of our lost friend. 
       </p>

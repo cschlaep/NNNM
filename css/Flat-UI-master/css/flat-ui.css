@@ -2408,8 +2408,8 @@ select[multiple].navbar-form .btn {
   color: #ffffff;
 }
 .navbar-inverse .navbar-nav > li > a:hover{
-  color: #34495e;
-  background-color: transparent;
+  color: #ffffff;
+  background-color: #34495e;
 }
 .navbar-inverse .navbar-nav > li > a:focus {
   color: #ffffff;
@@ -2428,8 +2428,8 @@ select[multiple].navbar-form .btn {
   background-color: transparent;
 }
 .navbar-inverse .navbar-nav > .dropdown > a:hover .caret{
-  border-top-color: #34495e;
-  border-bottom-color: #34495e;
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
 }
 .navbar-inverse .navbar-nav > .dropdown > a:focus .caret {
   border-top-color: #ffffff;

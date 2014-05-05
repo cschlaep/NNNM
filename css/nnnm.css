@@ -6,7 +6,7 @@
 	margin-top: 30px;
 	margin-bottom: 10px;
 	font-size: 28px;
-	background-color: #AB3334;
+	background-color: green;
 	font-weight: bold;
 	color:white;
 	-webkit-box-shadow: rgba(0, 0, 0, 0.14902) 0px -2px 0px 0px inset;
@@ -66,6 +66,15 @@
 	height: auto;
 }
 
+.donate-link > a {
+	background-color: green;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.14902) 0px -2px 0px 0px inset;
+}
+
+.donate-link > a:hover {
+	background-color: #34495e;
+}
+
 .email-form > fieldset > input {
 	margin-bottom: 0px;
 }
@@ -99,6 +108,11 @@
 .event-name {
 	position: relative;
 	z-index: 2;
+}
+
+.event-info > h6 {
+	text-align: center;
+	margin: 0 auto 0 auto;
 }
 
 .fb-social {

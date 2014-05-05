@@ -6,7 +6,7 @@
 	margin-top: 15px;
 	margin-bottom: 10px;
 	font-size: 14px;
-	background-color: #AB3334;
+	background-color: green;
 	font-weight: bold;
 	color:white;
 }
@@ -65,6 +65,16 @@
 
 .contact-table {
 	text-align:center;
+}
+
+.donate-link > a {
+	background-color: #AB3334;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.14902) 0px 0px 0px 0px inset;
+	border-radius: 6px;
+}
+
+.donate-link > a:hover {
+	background-color: #34495e;
 }
 
 .email-form > fieldset > input {

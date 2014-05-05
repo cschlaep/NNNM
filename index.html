@@ -14,6 +14,7 @@
     <link rel="stylesheet" type="text/css" href="engine1/style.css" />
     <script type="text/javascript" src="engine1/jquery.js"></script>
     <script type="text/javascript" src="css/Flat-UI-master/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-hover-dropdown.js"></script>
     <script>
       window.fbAsyncInit = function() {
         FB.init({
@@ -51,8 +52,8 @@
           <li><a href="./index.html">Home</a></li>           
           <li><a href="./contact.html">Contact</a></li>
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Information <b class="caret"></b></a>
-            <span class="dropdown-arrow" style="z-index:1000"></span>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Information <b class="caret"></b></a>
+            <span class="dropdown-arrow" style="z-index:1000;"></span>
             <ul class="dropdown-menu">
               <li><a href="./cause.html">The Cause</a></li>
               <li><a href="./event.html">The Event</a></li>
@@ -60,7 +61,7 @@
           </li>
          </ul>
          <ul class="nav navbar-nav navbar-right">
-          <li><a href="https://giving.mit.edu/givenow/start.dyn?designationId=3622010&source=MSKS" target="_blank">Donate</a></li>          
+          <li class="donate-link"><a style="border-top-right-radius: 6px; border-bottom-right-radius: 6px;" href="https://giving.mit.edu/givenow/start.dyn?designationId=3622010&source=MSKS" target="_blank">Donate</a></li>          
          </ul>
       </div>
     </nav>

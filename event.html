@@ -16,6 +16,7 @@
     <script type="text/javascript" src="engine1/jquery.js"></script>
     <script type="text/javascript" src="js/nnnm.js"></script>
     <script type="text/javascript" src="css/Flat-UI-master/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-hover-dropdown.js"></script>
 
   </head>
 
@@ -32,8 +33,8 @@
           <li><a href="./index.html">Home</a></li>           
           <li><a href="./contact.html">Contact</a></li>
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Information <b class="caret"></b></a>
-            <span class="dropdown-arrow"></span>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Information <b class="caret"></b></a>
+            <span class="dropdown-arrow" style="z-index:1000;"></span>
             <ul class="dropdown-menu">
               <li><a href="./cause.html">The Cause</a></li>
               <li><a href="./event.html">The Event</a></li>
@@ -41,24 +42,28 @@
           </li>
          </ul>
          <ul class="nav navbar-nav navbar-right">
-          <li><a href="https://giving.mit.edu/givenow/start.dyn?designationId=3622010&source=MSKS" target="_blank">Donate</a></li>           
+          <li class="donate-link"><a style="border-top-right-radius: 6px; border-bottom-right-radius: 6px;" href="https://giving.mit.edu/givenow/start.dyn?designationId=3622010&source=MSKS" target="_blank">Donate</a></li>          
          </ul>
       </div>
     </nav>
 
     <div class="container info-container">
       <h1>The Event</h1>
+
+      <div class="event-info">
+        <h6>April 19 - 5pm</h6>
+        <br>
+        <h6>407 Memorial Drive</h6>
+        <h6>Cambridge, MA 02139</h6>
+      </div>
+
+      <h6 style="font-weight:bold; margin-bottom:10px;">What are we doing?</h6>
+      <p>
+        Running for charity!   The Nearly Naked Nearly Mile will be held at the <b>Kappa Sigma Fraternity</b> located at <b>407 Memorial Drive</b> in Cambridge.  The event will be held on <b>April 19th</b> at <b>5pm</b>.  At <b>5:30pm</b>, we’ll strip down and begin our run through campus.  We ask that you arrive wearing clothes that you would like to donate to the American Red Cross.  When the run begins, we’ll all strip down (nearly) naked, put all of our clothing donations in a big pile, and cavort through the heart of MIT’s campus, including a trip down the Infinite Corridor.
+      </p>
       <img src="images/event-section.jpg" class="event-image"/>
-      <h6 style="font-weight:bold">When and Where?</h6>
-      <p>
-        The Nearly Naked Nearly Mile will be held at the <b>Kappa Sigma Fraternity</b> located at <b>407 Memorial Drive</b> in Cambridge.  The event will be held on <b>April 19th, 2014</b> at <b>5pm</b>.  At <b>5:30pm</b>, we’ll strip down and begin our run through campus.
-      </p>
-      <h6 style="font-weight:bold">What are we doing?</h6>
-      <p>
-        Running for charity!  We ask that you arrive wearing clothes that you would like to donate to the American Red Cross.  When the run begins, we’ll all strip down (nearly) naked, put all of our clothing donations in a big pile, and cavort through the heart of MIT’s campus, including a trip down the Infinite Corridor.
-      </p>
-      <h6 style="font-weight:bold">What else will be going on?</h6>
-      <p>
+      <h6 style="font-weight:bold; margin-bottom:10px;">What else will be going on?</h6>
+      <p style="margin-bottom:50px;">
         We’ve got plenty of rewards for your nearly naked run through campus.  Food and drink will be generously provided by several local Cambridge restaurants.  Live music will be provided by Kappa Sigma’s own DJ NoSlax and DJ Brody Jones.  And if you want to thank our event organizers for their efforts, they’ll be hanging out in a dunk tank all night long.
       </p>
 
